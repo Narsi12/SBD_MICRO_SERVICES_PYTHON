@@ -18,6 +18,7 @@ venv/
 # Django migrations
 */migrations/*.py
 */migrations/*.pyc
+*/migrations/
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]
