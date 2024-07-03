@@ -1,0 +1,42 @@
+
+#environment variables
+.env
+
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Virtual environment
+env/
+venv/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Node modules
+node_modules/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Ruff linter cache
+.ruff_cache/
