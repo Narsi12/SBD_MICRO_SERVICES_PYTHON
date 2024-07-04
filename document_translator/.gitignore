@@ -1,8 +1,9 @@
-
+[Yesterday 20:30] Narsimha CHELLABOINA
+ 
 #environment variables
 .env
-
-
+ 
+ 
 # Django specific files
 *.log
 *.pot
@@ -10,16 +11,16 @@
 __pycache__/
 db.sqlite3
 media/
-
+ 
 # Virtual environment
 env/
 venv/
-
+ 
 # Django migrations
 */migrations/*.py
 */migrations/*.pyc
 */migrations/
-
+ 
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 *.so
@@ -30,14 +31,14 @@ build/
 *.manifest
 *.spec
 
-# Node modules
-node_modules/
-
+ 
 # VSCode settings
 .vscode/
-
+ 
 # PyCharm settings
 .idea/
-
+ 
 # Ruff linter cache
 .ruff_cache/
+ 
+ 

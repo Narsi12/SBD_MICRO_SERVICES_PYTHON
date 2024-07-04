@@ -104,19 +104,31 @@ CORS_ALLOW_ALL_ORIGINS = True
 #     }
 # }
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': get_env_variable("DB_NAME"),
-        'USER': get_env_variable("DB_USER"),
-        'PASSWORD': get_env_variable("DB_PASSWORD"),
-        'HOST': get_env_variable("DB_HOST"),
-        'PORT': get_env_variable("DB_PORT"), 
-        'OPTIONS': {
-            'sslmode': 'require',
-        }
+        'NAME': 'sbd4',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': get_env_variable("DB_NAME"),
+#         'USER': get_env_variable("DB_USER"),
+#         'PASSWORD': get_env_variable("DB_PASSWORD"),
+#         'HOST': get_env_variable("DB_HOST"),
+#         'PORT': get_env_variable("DB_PORT"), 
+#         'OPTIONS': {
+#             'sslmode': 'require',
+#         }
+#     }
+# }
 
 CACHES = {
     "default": {
